@@ -1,0 +1,53 @@
+/* =========================
+   Responsive refinements
+   ========================= */
+
+/* Prevent horizontal scroll issues */
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* Touch-friendly spacing on mobile */
+@media (max-width: 768px) {
+  section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  /* Reduce visual noise */
+  .divider {
+    margin: 0.75rem auto;
+  }
+
+  /* Centre-align key sections */
+  .text-center-mobile {
+    text-align: center;
+  }
+
+  /* Cards feel less cramped */
+  .card {
+    padding: 1.25rem;
+  }
+
+  /* Icons don’t eat space */
+  .icon-circle {
+    width: 36px;
+    height: 36px;
+    font-size: 0.9rem;
+  }
+
+  /* Lists breathe better */
+  li {
+    margin-bottom: 0.75rem;
+  }
+}
+
+/* Desktop polish */
+@media (min-width: 769px) {
+  /* Keep content visually centred */
+  .container,
+  .container-sm {
+    padding-inline: 1.5rem;
+  }
+}
