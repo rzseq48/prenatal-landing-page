@@ -1,5 +1,5 @@
 /* =========================
-   Accordion behaviour so that we can see in pc and phone
+   Accordion behaviour
    ========================= */
 
 document.addEventListener('DOMContentLoaded', () => {
